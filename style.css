@@ -35,7 +35,7 @@
     border-radius: 10px;
 }
 
-.banner-image{
+.photo{
     width: 300px;
 }
 
@@ -67,4 +67,28 @@
     border: none;
     border-radius: 5px;
     color: white;
+}
+
+.about-title{
+    text-align: center;
+    padding: 30px;
+}
+
+.about-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row-reverse;
+    height: 350px;
+}
+
+.about-text-heading{
+    font-size: 25px;
+    margin-top: -100px;
+}
+
+.about-text{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-size: 18px;
 }
