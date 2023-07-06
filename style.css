@@ -4,7 +4,7 @@
 }
 
 .menu-container{
-    background-color: rgb(72, 72, 72);
+    background-color: rgb(60, 60, 60);
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -33,4 +33,38 @@
     border: 2px solid rgb(136, 152, 45);
     cursor: pointer;
     border-radius: 10px;
+}
+
+.banner-image{
+    width: 300px;
+}
+
+.banner-container{
+    display: flex;
+    height: 100vh;
+    justify-content: space-around;
+    align-items: center;
+    background-image: url("./images/background.png"), linear-gradient(45deg, rgb(5, 5, 5), rgb(40, 40, 40));
+    color: white;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.title{
+    font-size: 50px;
+}
+
+.text{
+    font-size: 20px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.btn{
+    padding: 10px 15px;
+    background-color: red;
+    border: none;
+    border-radius: 5px;
+    color: white;
 }
