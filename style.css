@@ -92,3 +92,51 @@
     margin-bottom: 15px;
     font-size: 18px;
 }
+
+.service-container{
+    height: 520px;
+    background-image: url(./images/background.png), linear-gradient(90deg, rgb(11, 11, 11), rgb(42, 42, 42));
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.service-title{
+    text-align: center;
+    color: white;
+    padding-top: 70px;
+}
+
+.box1{
+    width:230px;
+    background-color: rgba(0, 0, 0, 0.1);
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 100px rgb(176, 176, 176);
+}
+
+.icon{
+    width: 70px;
+}
+
+.box-title{
+    padding-top: 10px;
+}
+
+.box-text{
+    padding:15px;
+}
+
+.service-boxes{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.box-btn{
+    background-color: rgb(27, 27, 27);
+}
