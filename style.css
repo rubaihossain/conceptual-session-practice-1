@@ -140,3 +140,52 @@
 .box-btn{
     background-color: rgb(27, 27, 27);
 }
+
+footer{
+    background-color: black;
+}
+
+.footer-container{
+    width: 75%;
+    height: 60vh;
+    color: white;
+    margin: auto;
+}
+
+.footer-img{
+    width: 150px;
+}
+
+.footer-boxer{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 50px;
+    padding-bottom: 15px;
+}
+
+.footer-box1{
+    width: 230px;
+}
+.footer-box{
+   padding: 50px;
+}
+
+.footer-description{
+    line-height: 1.7;
+}
+
+.footer-box-header{
+    padding-bottom: 20px;
+}
+
+.footer-line{
+    padding-top: 10px;
+}
+
+.copy{
+    text-align: center;
+    font-size: 13px;
+    padding-top: 15px;
+}
